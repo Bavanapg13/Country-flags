@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:rgb(68, 90, 44);
+}
+
+.flag {
+    display: flex;
+    width: 450px;      /* 3 units */
+    height: 300px;     /* 2 units */
+    border: 1px solid rgb(68, 90, 44);
+}
+
+.white-band {
+    width: 33.33%;
+    background-color: white;
+}
+
+.right-side {
+    width: 66.67%;
+    display: flex;
+    flex-direction: column;
+}
+
+.red-band {
+    height: 50%;
+    background-color: red;
+}
+
+.green-band {
+    height: 50%;
+    background-color: green;
+}
