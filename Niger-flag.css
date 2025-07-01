@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:black;
+}
+
+.flag {
+    width: 420px;
+    height: 360px;
+    display: grid;
+    border: 2px solid;
+}
+
+.stripe{
+    flex: 1;
+    height: 120px;
+    width:100%;
+}
+.circle{
+    background-color: orangered;
+    position:absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:102px;
+    height:102px;
+}
+
+
+.orange {
+    background-color:orangered ;
+}
+
+.white {
+    background-color: white;
+    position:relative;
+}
+
+.green{
+background-color:green;
+}
+    
